@@ -18,3 +18,5 @@ A repository for my custom Minecraft resource pack so I don't lose it.
 - XP Bar and hotbar selection are aqua blue
 - Pumpkin blur improved
 - Some paintings replaced
+- Transparent inventory background
+- 3D Ladders
