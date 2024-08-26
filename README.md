@@ -20,3 +20,4 @@ A repository for my custom Minecraft resource pack so I don't lose it.
 - Some paintings replaced
 - Transparent inventory background
 - 3D Ladders
+- Altered shield position
