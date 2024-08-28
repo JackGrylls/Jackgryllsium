@@ -1,26 +1,63 @@
 {
-    "ambientocclusion": false,
-    "textures": {
-        "particle": "block/redstone_dust_dot",
-        "line": "block/redstone_dust_line0",
-        "overlay": "block/redstone_dust_overlay"
-    },
-    "elements": [
-        {   "from": [ 0, 0, 0.25 ],
-            "to": [ 16, 16, 0.25 ],
-            "shade": false,
-            "faces": {
-                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#line", "tintindex": 0 },
-                "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#line", "tintindex": 0 }
-            }
-        },
-        {   "from": [ 0, 0, 0.25 ],
-            "to": [ 16, 16, 0.25 ],
-            "shade": false,
-            "faces": {
-                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay" },
-                "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#overlay" }
-            }
-        }
-    ]
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"line": "block/redstone_dust_line0",
+		"overlay": "block/redstone_dust_overlay",
+		"particle": "block/redstone_dust_dot"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0.25],
+			"to": [16, 16.25, 0.25],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#line", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#line", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 0, 0.25],
+			"to": [16, 16.25, 0.25],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#overlay"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#overlay"}
+			}
+		},
+		{
+			"from": [6, 16.25, 0],
+			"to": [10, 16.25, 0.25],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "x", "origin": [0, 16, 0.25]},
+			"faces": {
+				"up": {"uv": [6, 15, 10, 16], "texture": "#line", "tintindex": 0},
+				"down": {"uv": [10, 15, 6, 16], "rotation": 180, "texture": "#line", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6, 16.25, 0],
+			"to": [10, 16.25, 0.25],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "x", "origin": [0, 16, 0.25]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#overlay"},
+				"down": {"uv": [10, 15, 6, 16], "rotation": 180, "texture": "#overlay"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
 }
