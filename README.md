@@ -1,5 +1,10 @@
 # Jackgryllsium
-A repository for my custom Minecraft resource pack so I don't lose it.
+A repository for my custom Minecraft resource pack.
+Generally speaking, it should include:
+- Small, personal preferences tweaked
+- Tweaking things for the sake of gameplay improvement (e.g. fire doesn't blind you)
+- Some jokes/inside jokes, but not too intrusive
+- The game should still feel more or less vanilla
 
 ## Feature List
 - Tweaked armour & armour trims
