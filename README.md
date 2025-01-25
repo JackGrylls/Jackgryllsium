@@ -20,3 +20,9 @@ A repository for my custom Minecraft resource pack so I don't lose it.
 - Transparent inventory background
 - 3D Ladders
 - Altered shield position
+
+## Releases
+- 1.21.x
+
+If there is anything missing from a release that exists in the latest version of Jackgryllsium, please create an issue.
+Obviously this does not include textures/models/etc for items that do not exist in older versions.
