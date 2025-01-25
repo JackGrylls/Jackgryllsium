@@ -10,7 +10,6 @@ A repository for my custom Minecraft resource pack so I don't lose it.
 - Shorter fire
 - Chiselled stone bricks has a centred texture
 - More vibrant ancient debris texture
-- Offline default skins changed
 - Slightly edited clouds
 - Slightly edited moon
 - "Java edition" removed from titles
