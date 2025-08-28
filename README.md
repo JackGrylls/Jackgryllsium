@@ -7,6 +7,7 @@ Generally speaking, it should include:
 - The game should still feel more or less vanilla
 
 ## Feature List
+- 3D Mace weapon model when in hand
 - Tweaked armour & armour trims
 - Arrows on hoppers to indicate direction
 - Tidier redstone dust
