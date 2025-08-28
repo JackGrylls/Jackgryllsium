@@ -16,16 +16,16 @@ Generally speaking, it should include:
 - Shorter fire
 - Chiselled stone bricks has a centred texture
 - More vibrant ancient debris texture
-- Slightly edited clouds
-- Slightly edited moon
+- 1056 hidden in the clouds
+- Happy lapis full moon
 - "Java edition" removed from titles
 - Different crosshair
 - XP Bar and hotbar selection are aqua blue
 - Pumpkin blur improved
 - Some paintings replaced
-- Transparent inventory background
+- Transparent inventory player background
 - 3D Ladders
-- Altered shield position
+- Lower shield position
 
 ## Releases
 - Latest (Lates Minecraft version)
